@@ -123,6 +123,10 @@ copyright_license:
     - The Unlicense
     - zlib License
 
+python_requirement:
+  type: str
+  default: ">=3.7,<3.11"
+
 python_package_distribution_name:
   type: str
   help: Your Python package distribution name (for `pip install NAME`)
